@@ -1,0 +1,85 @@
+body{
+    background-color: #77477e;
+    padding: 0;
+    margin: 0;
+    background-image: url("fundo2.jpg");
+    color: white;
+}
+#title{
+    text-align: center;
+    font-size: 5em; 
+    margin-top: 1em;
+}
+#texto{
+    text-align: center;
+    font-size: 25px;
+    margin: 2em auto;
+    display: block;
+}
+li{
+    margin: 0 auto;
+    margin-top: 3em;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 0.7em;
+    margin: 0.5em;
+}
+ul{
+    text-align: center;
+}
+img{
+    width: 28.5em;
+    height: 20em;
+    margin-top: 4em;
+    margin-left: 2em;
+    margin-right: 3em;
+    border-radius: 8px;
+}
+.imagens{
+    float: right;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+      background-color: #77477e;
+      padding: 0;
+      margin: 0;
+      background-image: url("fundo.jpg");
+      color: white;
+  }
+  #title{
+      text-align: center;
+      font-size: 2em; 
+      margin-top: 1em;
+  }
+  #texto{
+      text-align: center;
+      font-size: 14px;
+      margin: 2em auto;
+      display: block;
+  }
+  li{
+      margin: 0 auto;
+      margin-top: 2em;
+      display: inline-block;
+      border: 1px solid;
+      border-radius: 2px;
+      padding: 0.2em;
+      margin: 0.2em;
+  }
+  ul{
+      text-align: center;
+  }
+  img{
+      width: 8em;
+      height: 8em;
+      margin-top: 2em;
+      margin-left: 1em;
+      margin-right: 3em;
+      border-radius: 4px;
+  }
+  .imagens{
+      float: right;
+  }
+  }
